@@ -1,0 +1,5 @@
+createContext : context를 생성
+
+Consumer : 소비자라는 단어 뜻 그대로 context 데이터를 사용
+
+Provider : 제공자의 위치로서 context 데이터를 변경해서 넘겨줄 수 있다
