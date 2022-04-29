@@ -26,6 +26,7 @@ const ColorProvider = ({ children }) => {
 };
 
 // Consumer를 ColorConsumer로 이름 바꿔주는 것
+// ColorContext.Consumer를 ColorConsumer라는 이름으로 내보낸다는 뜻
 const { Consumer: ColorConsumer } = ColorContext;
 
 export { ColorProvider, ColorConsumer };

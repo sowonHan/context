@@ -3,3 +3,10 @@ createContext : context를 생성
 Consumer : 소비자라는 단어 뜻 그대로 context 데이터를 사용
 
 Provider : 제공자의 위치로서 context 데이터를 변경해서 넘겨줄 수 있다
+
+=== Hook ===
+useContext : 훅을 함께 사용하면 기존보다 코드가 훨씬 간결해져서 사용하기 좋다
+
+※ 클래스형에서는 콘텍스트를 하나밖에 사용하지 못하는 단점이 있다(훅을 사용하면 보완되기는 함)
+
+context와 redux는 옵션이므로 프로젝트 상황에 따라서 사용하면 된다
